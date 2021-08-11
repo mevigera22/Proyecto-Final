@@ -1,0 +1,114 @@
+[
+ [
+  {
+   "type": "identifier",
+   "value": "contador",
+   "text": "contador",
+   "offset": 0,
+   "lineBreaks": 0,
+   "line": 1,
+   "col": 1
+  },
+  {
+   "type": "incrementos_decrementos",
+   "value": "++",
+   "text": "++",
+   "offset": 8,
+   "lineBreaks": 0,
+   "line": 1,
+   "col": 9
+  }
+ ],
+ {
+  "type": "for_loop",
+  "condicion1": {
+   "type": "var_assign",
+   "tipo_palabra": {
+    "type": "identifier",
+    "value": "var",
+    "text": "var",
+    "offset": 17,
+    "lineBreaks": 0,
+    "line": 2,
+    "col": 5
+   },
+   "var_name": {
+    "type": "identifier",
+    "value": "i",
+    "text": "i",
+    "offset": 21,
+    "lineBreaks": 0,
+    "line": 2,
+    "col": 9
+   },
+   "value": {
+    "type": "number",
+    "value": "0",
+    "text": "0",
+    "offset": 23,
+    "lineBreaks": 0,
+    "line": 2,
+    "col": 11
+   }
+  },
+  "condicion2": {
+   "type": "comparacion",
+   "valor1": [
+    {
+     "type": "identifier",
+     "value": "i",
+     "text": "i",
+     "offset": 26,
+     "lineBreaks": 0,
+     "line": 2,
+     "col": 14
+    }
+   ],
+   "valor2": [
+    {
+     "type": "number",
+     "value": "8",
+     "text": "8",
+     "offset": 28,
+     "lineBreaks": 0,
+     "line": 2,
+     "col": 16
+    }
+   ]
+  },
+  "condicion3": [
+   {
+    "type": "identifier",
+    "value": "i",
+    "text": "i",
+    "offset": 31,
+    "lineBreaks": 0,
+    "line": 2,
+    "col": 19
+   },
+   {
+    "type": "incrementos_decrementos",
+    "value": "++",
+    "text": "++",
+    "offset": 32,
+    "lineBreaks": 0,
+    "line": 2,
+    "col": 20
+   }
+  ],
+  "instrucciones": [
+   {
+    "type": "print",
+    "text": {
+     "type": "string",
+     "value": "\"Holamundo\"",
+     "text": "\"Holamundo\"",
+     "offset": 49,
+     "lineBreaks": 0,
+     "line": 3,
+     "col": 11
+    }
+   }
+  ]
+ }
+]

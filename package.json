@@ -1,0 +1,19 @@
+{
+  "name": "testCompi",
+  "version": "1.0.0",
+  "description": "",
+  "browser": "./browser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moo": "^0.5.1",
+    "nearley": "^2.20.1"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0"
+  }
+}

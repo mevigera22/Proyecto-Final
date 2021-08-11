@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"
+    integrity="sha512-F5QTlBqZlvuBEs9LQPqc1iZv2UMxcVXezbHzomzS6Df4MZMClge/8+gXrKw2fl5ysdk4rWjR0vKS7NNkfymaBQ=="
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Intérprete de Lenguaje</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <header>
+      <nav class="navbar navbar-dark bg-dark ">
+        <div class="container">
+          <a class="navbar-brand" href="#" style="font-family: monospace; font-size:x-large;">
+            <i class="fas fa-terminal" style="color: chartreuse;"></i>Proyecto de compiladores</a>
+        </div>
+
+      </nav>
+    </header>
+    <div class="container-fluid" style="margin-top: 2rem;">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h1>Interprete de Lenguaje</h1>
+          </div>
+        </div>
+        <form id="formulario">
+
+          <div class="form-floating py-2" style="font-family: monospace; font-weight: 700;">
+            <textarea class="form-control" id="floatingTextarea2" style="height: 100px;"></textarea>
+            <label for="floatingTextarea2">Escriba su código aquí:</label>
+          </div>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-center"
+            style="font-family: monospace; font-size: large;">
+            <button class="btn btn-success me-md-2 px-5" style="font-weight: bold;" type="submit">Validar
+              código</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <hr>
+    <div class="container">
+      <h1>Ejemplo basicos</h1>
+      <br>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <strong>Declarar una variable:</strong>
+            <br>
+            $ nombre = "Compiladores";<br>
+          </div>
+          <div class="col-sm">
+            <strong>Declarar un ciclo for/para:</strong><br>
+
+            durante( $ i=0 ; i<10 ; i++ ) {​​​​<br>
+              print("Hola mundo");<br>
+              }
+          </div>
+          <div class="col-sm">
+            <strong>Declarar un ciclo while/mientras:</strong><br>
+            mientras ( i<10 ) {​​​​<br>
+              si(2 == 2) { ​​​​<br>
+              print("tengo miedo");<br>
+              }​​​​
+              }​​​​
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-sm">
+            <strong>Declarar un ciclo Do While:</strong><br>
+            haz {​​​​ <br>
+            print(1);<br>
+            }​​​​ mientras ( i<5 ) </div>
+              <div class="col-sm">
+                <strong>Palabras reservadas del lenguaje:</strong><br>
+                $ mientras durante haz
+              </div>
+
+          </div>
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="priv/bundle.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
